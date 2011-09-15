@@ -1,0 +1,7 @@
+class Form1 : Window<br>
+{<br>
+   void OnRedraw(Surface surface)<br>
+   {<br>
+      surface.blit( image, xdest, ydest, sourceX, sourceY, sourceW, sourceH );<br>
+   }<br>
+}

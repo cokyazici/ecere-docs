@@ -1,0 +1,1 @@
+Point coord = { 10, 30 } // equivalent to coord.x = 10, coord.y = 30

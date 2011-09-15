@@ -1,0 +1,8 @@
+class Form1 : Window<br>
+{<br>
+   Label label1 { this, text = "This is a label", position = { 10, 10 } };<br>
+   Label label2 { this, text = "This is a bold label", font = "Tahoma", 8.25f, bold = true, position = { 10, 40 } };<br>
+   Label test { this, text = "This is a label!", inactive = false, size = { 108, 44 }, position = { 56, 72 }, labeledWindow = editBox1, true };<br>
+   Label groupBox { this, text = "This is a Group Box", size = { 100, 100 }, isGroupBox = true };<br>
+}<br>
+Form1 form1 {};

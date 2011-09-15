@@ -1,0 +1,2 @@
+The Window which the current Window/Control belongs to.<br>
+Example: parent = this;

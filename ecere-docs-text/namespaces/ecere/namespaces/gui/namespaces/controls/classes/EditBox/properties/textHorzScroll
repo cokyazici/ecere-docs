@@ -1,0 +1,2 @@
+When true, the text will scroll to the left while it is being entered, so that the caret is always visible. This also enables the user to manually scroll left and right on the line using the left and right arrows.<br>
+When false, it is not possible to type past the width of the control.

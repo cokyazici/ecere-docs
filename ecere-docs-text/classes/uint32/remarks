@@ -1,0 +1,3 @@
+Unlike other languages the uint32 data type is actually a class.<br>
+<br>
+uint32 is equivalent to an unsigned int in C.

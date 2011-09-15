@@ -1,0 +1,6 @@
+File f = FileOpen("C:/fun.txt", read);<br>
+if(f)<br>
+{<br>
+   myEditBox.Load(f);<br>
+   delete(f);<br>
+}

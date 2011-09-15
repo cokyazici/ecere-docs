@@ -1,0 +1,5 @@
+An integer data type.<br>
+<br>
+Memory occupied: 64 bits(or 8 bytes)<br>
+<br>
+An int64 data type holds a decimal value between the range of -2 exp 63 and 2 exp 63-1 (or -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807).

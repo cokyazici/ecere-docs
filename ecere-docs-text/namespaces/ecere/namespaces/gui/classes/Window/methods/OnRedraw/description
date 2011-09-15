@@ -1,0 +1,1 @@
+This method is called anytime the Window is redrawn. Usually when it is resized or moved, however can also be called manually by calling Update() to redraw the contents of the window.

@@ -1,0 +1,2 @@
+The contents of the Edit Box.<br>
+Example: char * contentsOfEditBox = editBox1.contents;

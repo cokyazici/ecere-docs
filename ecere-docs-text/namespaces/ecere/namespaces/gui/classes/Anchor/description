@@ -1,0 +1,1 @@
+Defines the position of a Window/Control based on its top, left, bottom, right, middle horizontal, and middle vertical points relative to the parents client area, rather than just the top left corner.

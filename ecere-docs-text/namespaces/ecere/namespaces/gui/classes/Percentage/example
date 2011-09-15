@@ -1,0 +1,1 @@
+Window { opacity = 0.5, alphaBlend = true }; // Sets the opacity of a window to 50 percent transparency.

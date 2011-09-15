@@ -1,0 +1,1 @@
+When true, the Caret will not appear in the Edit Box. The property editor will automatically set the Edit Box to read only. This makes it so that the Edit Box can be used for read only information without the distraction or confusion of the Caret.

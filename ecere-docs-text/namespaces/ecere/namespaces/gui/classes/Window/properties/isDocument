@@ -1,0 +1,2 @@
+When true, this Window/Control would be treated as a document, enabling things like having the path show up in the Title Bar. <br>
+Note: For best results, set this property true on a Window rather than on a Control.

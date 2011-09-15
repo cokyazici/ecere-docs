@@ -1,0 +1,3 @@
+Initially declared in the declaration section of code. The resulting array of data is later accessed through the [] syntax: nameOfArray[arrayElement] = arbitraryValue.<br>
+<br>
+Be certain that when you instantiate an Array that you have a matching delete statement for it, otherwise potential memory leaks could become a problem.

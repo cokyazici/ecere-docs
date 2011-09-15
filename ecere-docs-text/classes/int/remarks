@@ -1,0 +1,3 @@
+Unlike C or C++ where the int memory space can be either 16 or 32 bits depending on the platform, the eC int is guaranteed to be 32 bits on all platforms. Additionally, unlike other languages the int data type is actually a class.<br>
+<br>
+int is otherwise equivalent to an int in C.

@@ -1,0 +1,1 @@
+Very similar to the Bitmap class. In fact Bitmap could be said to be low level, while BitmapResource could be said to be a high level object.

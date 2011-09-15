@@ -1,0 +1,4 @@
+      int Rand;<br>
+      RandomSeed((uint)(GetTime() * 1000));<br>
+      Rand = GetRandom(1, 10);<br>
+      printf("%d\n", Rand);     

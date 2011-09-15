@@ -1,0 +1,3 @@
+float aFloat; // A stand alone declaration of a float.<br>
+float a, b; // Declaring two floats at the same time.<br>
+float c = 12.123456; // Declaring and initializing a float at the same time.

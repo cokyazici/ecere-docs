@@ -1,0 +1,3 @@
+Window { anchor = { right = 16, bottom = 32 } };// This sets the window to appear with its right side being 16 pixels from the right side of the Parents client area, and 32 pixels from the bottom.<br>
+Window { anchor = { horz = 100, vert = 100 } };// This sets the window to appear with its center being 100 pixels from the left of the parents client area, and 100 pixels from the top.<br>
+Window { anchor = { horz = 0.5, vert = 0.5 } }; // This sets the window to appear with it's center being at 50% of the parents client area width, and 50% of the client area height.

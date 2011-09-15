@@ -1,0 +1,1 @@
+When true, the transparency layer of the image is recognized. When the image is later blitted to the screen the transparent regions of the image are not drawn.

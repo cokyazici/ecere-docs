@@ -1,0 +1,2 @@
+Typically, the Master is the Controlling Window of the application. The Master receives all the messages.<br>
+Example: master = this;

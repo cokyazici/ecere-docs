@@ -1,0 +1,1 @@
+When true, the "grayed" filter is applied, so that the bitmap is stored similar to a grayed out control or button. Default is false.

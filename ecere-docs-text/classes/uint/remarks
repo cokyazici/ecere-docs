@@ -1,0 +1,3 @@
+Unlike other languages the uint data type is actually a class.<br>
+<br>
+uint is equivalent to an unsigned int in C.

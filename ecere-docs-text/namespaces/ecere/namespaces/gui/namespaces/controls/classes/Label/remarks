@@ -1,0 +1,1 @@
+Label is exempt from the usual tabCycle process, because it's inactive property is by default set to true. However, when isGroupBox is true, then inactive by default is set to false, since it would be desired to have the children of the GroupBox as part of the tabCycling.

@@ -1,0 +1,3 @@
+Unlike other languages the unsigned int data type is actually a class.<br>
+<br>
+unsigned int is equivalent to an unsigned int in C, and is in fact only part of eC to maintain backwards compatibility with C. In all ways, the unsigned int is also equivalent to the shorter and preferred uint syntax.

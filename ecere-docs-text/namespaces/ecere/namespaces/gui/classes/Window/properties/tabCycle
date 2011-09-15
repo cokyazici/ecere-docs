@@ -1,0 +1,2 @@
+When true, then it becomes possible to use the tab key to cycle through all of the children of this Window/Control. The order of cycling is determined by the order of instantiation.<br>
+Note: If tabCycle is not true on the parent, then children with hotKeys set, will not be activated by pressing the hotKey, unless the parent is currently active.

@@ -1,0 +1,5 @@
+class Form1 : Window<br>
+{<br>
+   Update( null ); // update the entire window<br>
+   Update( { 0, 0, 50, 50 } ); // update the region from 0 to 50 on the x axis, and 0 to 50 on the y axis.<br>
+} 

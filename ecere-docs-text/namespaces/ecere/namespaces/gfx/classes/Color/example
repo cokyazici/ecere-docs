@@ -1,0 +1,2 @@
+Color red = { r = 255 }; // High intensity red.<br>
+Color yellow = { 0xFFFF00 }; // High intensity yellow. r = 0xFF(255), g = 0xFF(255), b = 0x00(0)

@@ -1,0 +1,1 @@
+If false, the Label is simply static text. If true, the Label is attached to a frame, which is used to visually group components together. The size of this frame is equal to the size of the Label.

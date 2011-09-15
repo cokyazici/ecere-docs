@@ -1,0 +1,2 @@
+Sets the state of the Window, either Normal, Minimized, or Maximized.<br>
+state = Normal;

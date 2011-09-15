@@ -1,0 +1,2 @@
+The key associated with a particular Window or Control. Pressing this key, or key combination will automatically activate the associated Window or Control.<br>
+Note: If the tabCycle property of the parent is not true, then hotKey will not work unless the parent is active.

@@ -1,0 +1,1 @@
+Enables the conversion from the Color type, to the ColorRGB type where each color element is stored as a floating point number.

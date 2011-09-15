@@ -1,0 +1,2 @@
+The title bar text for the Window. For other controls such as a Label or a Button, text is the descriptive text that the user sees.<br>
+Example: text = "This is a Window";

@@ -1,0 +1,5 @@
+An unsigned integer data type.<br>
+<br>
+Memory occupied: 16 bits(or 2 bytes)<br>
+<br>
+A uint16 data type holds a decimal value between the range of 0 and 65,535.

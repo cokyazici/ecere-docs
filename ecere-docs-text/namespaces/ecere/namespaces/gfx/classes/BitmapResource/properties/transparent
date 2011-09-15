@@ -1,0 +1,1 @@
+When true, any transparent background of the image is maintained and therefore when the image is rendered to the screen, it will have transparent areas. When false, the contents of the transparent areas may be surprising. Default is true.

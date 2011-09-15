@@ -1,0 +1,1 @@
+A storage container allowing for dynamic resizing of allocated space at run time. The data type of the data stored in this container as a typecast at the time of declaration.

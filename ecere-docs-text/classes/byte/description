@@ -1,0 +1,5 @@
+A byte type, is exactly what it's name implies, a data type  which stores a single byte of information.<br>
+<br>
+Memory occupied: 8 bits(or 1 byte)<br>
+<br>
+Numerically, a byte will hold a decimal number between 0 and 255. A byte is frequently used in conjunction with bitwise operators(AND(&), OR(|), XOR(^) and NOT(~)) or bit collection classes.

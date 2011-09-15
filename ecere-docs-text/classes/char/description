@@ -1,0 +1,5 @@
+Stores a single ASCII character.<br>
+<br>
+Memory occupied: 8 bits(or 1 byte)<br>
+<br>
+A char data type holds a decimal value between the range of -128 and 127. These integer values are used to refer to a particular alphanumeric character in the ASCII set.

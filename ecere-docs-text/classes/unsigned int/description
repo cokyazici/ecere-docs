@@ -1,0 +1,5 @@
+An unsigned integer data type.<br>
+<br>
+Memory occupied: 32 bits(or 4 bytes)<br>
+<br>
+An unsigned int data type holds a decimal value between the range of 0 to 2 exp 32-1 (or 0 to 4,294,967,295).

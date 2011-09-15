@@ -1,0 +1,3 @@
+A bool type describes a boolean type variable and can only store a true or false value.<br>
+<br>
+bool is equivalent to a bool in C.

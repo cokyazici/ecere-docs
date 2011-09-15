@@ -1,0 +1,1 @@
+Returns a random integer, based on the Random Seed. If no Random Seed is set with RandomSeed(), then GetRandom() returns lo.

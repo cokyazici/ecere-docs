@@ -1,0 +1,1 @@
+Used in the statements section of code. Once an instantiation of the EditBox control has been made, then Load() would be accessed through the . operator.

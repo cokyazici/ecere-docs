@@ -1,0 +1,1 @@
+When true, this Window/Control redirects mouse clicks to its parent rather than processing the mouse clicks itself. Essentially, the mouse becomes invisible to this item.

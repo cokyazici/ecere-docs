@@ -1,0 +1,2 @@
+The Maximum allowable size for the Client Area within the window.<br>
+Example: maxClientSize = { 120, 400 };

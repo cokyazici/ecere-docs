@@ -1,0 +1,2 @@
+The Minimum allowable size for the Client Area within the window.<br>
+Example: minClientSize = { 50, 50 };

@@ -1,0 +1,4 @@
+int thisInt; // A stand alone declaration of an int.<br>
+int a, b; // Declaring two ints at the same time.<br>
+int c = 64000, d = -10; // Declaring two ints, and initializing them both at the same time.<br>
+int anotherInt = 0x54DA; //Declaring and initializing an int with a hexadecimal value.

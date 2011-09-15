@@ -1,0 +1,2 @@
+Enables the Label to be attached to another control of Window class, or derived from the Window class, as a "Window Label." <br>
+*Developer Note: Currently, there is a bug which prevents this from working properly in the Form Editor, however it can be coded directly into the source.

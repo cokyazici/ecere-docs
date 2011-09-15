@@ -1,0 +1,1 @@
+Very similar to position, only with more versatility. Anchor allows you to set the top, left, bottom, and right settings relative to the top, left, bottom and right of the Window/Controls parent's clientArea.

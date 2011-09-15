@@ -1,0 +1,1 @@
+When true, enables the Window/Control to inhabit a region outside of the clientArea, but still constrained to the Parent. Normally this is used for system controls like the buttons in the Title Bar.

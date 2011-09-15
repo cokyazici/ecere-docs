@@ -1,0 +1,1 @@
+The number of spaces to jump when the Tab Key is pressed. Note: tabSize has no meaning if tabKey is not true.

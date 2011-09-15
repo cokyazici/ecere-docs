@@ -1,0 +1,3 @@
+bool thisBool; // A stand alone declaration of a bool.<br>
+bool a, b; // Declaring two bools at the same time.<br>
+bool c = true, d = false; // Declaring two bools, and initializing them both at the same time.

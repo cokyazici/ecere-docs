@@ -1,0 +1,1 @@
+Similar to a C++ Vector. The Array class does come with inevitable overhead required for the purposes of dynamically allocating storage. So if it is not required to have dynamic allocation of storage, it would be recommended to use standard arrays: ie) int thisArray[10];

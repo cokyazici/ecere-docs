@@ -1,0 +1,1 @@
+Greys out ALL controls within the Window making them unusable, including the controls on the TitleBar. When applied to an individual control, rather than an entire Window, then only that control is greyed out an unusable.

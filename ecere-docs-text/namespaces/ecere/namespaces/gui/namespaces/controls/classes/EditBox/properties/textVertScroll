@@ -1,0 +1,2 @@
+When true, the text can be scrolled vertically using the up and down arrows. For this to work, multiLine must also be true.<br>
+When false, it is not possible to type past the bottom of the control.

@@ -1,0 +1,3 @@
+char thisChar; // A stand alone declaration of a char.<br>
+char a, b; // Declaring two chars at the same time.<br>
+char c = 'a', d = 98; // Declaring two chars and initializing them at the same time. The 98 is the same as 'b'.

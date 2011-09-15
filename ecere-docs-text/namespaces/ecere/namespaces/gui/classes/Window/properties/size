@@ -1,0 +1,2 @@
+Sets the size of the Window, including all the decorations.<br>
+Example: size = { 200, 300 };

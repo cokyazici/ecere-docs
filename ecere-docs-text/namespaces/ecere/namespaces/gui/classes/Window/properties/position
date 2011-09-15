@@ -1,0 +1,2 @@
+The position of a Window/Control relative to the top left client area of the Parent. <br>
+Example: position = { 10, 10 };

@@ -1,0 +1,2 @@
+The height of each row of the drop down list. One item is listed per row.<br>
+Example: DropBox dropBox1 { this, rowHeight = 16 };

@@ -1,0 +1,3 @@
+uint aUint; // A stand alone declaration of a uint.<br>
+uint a, b; // Declaring two uints at the same time.<br>
+uint c = 64000, d = 10; // Declaring two uints, and initializing them both at the same time.

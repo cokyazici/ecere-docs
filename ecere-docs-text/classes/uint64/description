@@ -1,0 +1,5 @@
+An unsigned integer data type.<br>
+<br>
+Memory occupied: 64 bits(or 8 bytes)<br>
+<br>
+A uint64 data type holds a decimal value between the range of 0 and 2 exp 64-1 (or 0 to 18,446,744,073,709,551,615).

@@ -1,0 +1,1 @@
+When true(default), then the contents of the screen behind the Window are still redrawn. If false, then the screen behind is not redrawn, which can leave "ghosts" of the Window on the screen when it is moved or resized.

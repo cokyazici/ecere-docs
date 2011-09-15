@@ -1,0 +1,5 @@
+A double precision float data type.<br>
+<br>
+Memory occupied: 64 bits(or 8 bytes)<br>
+<br>
+A double data type holds a real number including the portion which follows the decimal point. The minimum precision for a double is 10 decimal digits. A doubles range is from 2.2250738585072014e-308 to 1.7976931348623158e+308.

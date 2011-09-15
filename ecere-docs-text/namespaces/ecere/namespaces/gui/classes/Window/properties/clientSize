@@ -1,0 +1,2 @@
+Sets the size of the interior of the Window; the Client Area.<br>
+Example: clientSize = { 190, 290 };

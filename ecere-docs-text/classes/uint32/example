@@ -1,0 +1,3 @@
+uint32 aUint32; // A stand alone declaration of a uint32.<br>
+uint32 a, b; // Declaring two uint32s at the same time.<br>
+uint32 c = 64000, d = 10; // Declaring two uint32s, and initializing them both at the same time.

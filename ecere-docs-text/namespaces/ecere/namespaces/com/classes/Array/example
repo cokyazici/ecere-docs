@@ -1,0 +1,8 @@
+void Test()<br>
+{<br>
+   Array<int> points { size = 10 };<br>
+   points[0] = { 10, 10 };<br>
+   points.size = 20;<br>
+   points[19] = { 5, 5 };<br>
+   delete points;<br>
+}

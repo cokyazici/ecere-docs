@@ -1,0 +1,2 @@
+A real number between 0 and 1, setting how translucent a control is. 0 is completely transparent, and 1 is completely opaque.<br>
+Example: opacity = 0.45;

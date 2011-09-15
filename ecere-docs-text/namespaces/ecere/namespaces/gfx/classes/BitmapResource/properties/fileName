@@ -1,0 +1,1 @@
+The filename of the bitmap to load. To specify that the file is to be loaded from the executables resources, precede the filename with a colon. ie: ":Tiles.png"

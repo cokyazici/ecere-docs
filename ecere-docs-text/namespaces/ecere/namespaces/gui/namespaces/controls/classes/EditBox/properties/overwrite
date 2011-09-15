@@ -1,0 +1,1 @@
+Returns true if the Insert key has been pressed, and false if it hasn't. This property cannot be set.

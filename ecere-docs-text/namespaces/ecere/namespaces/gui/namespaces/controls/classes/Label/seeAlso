@@ -1,0 +1,17 @@
+Label Properties from the Window class:<br>
+Appearance: <br>
+background, borderStyle, cursor, font, foreground, opacity, text.<br>
+Behaviour:<br>
+clickThrough, disabled, displayDriver, dontHideScroll, dontScrollHorz, dontScrollVert, hotKey, inactive, interim, isActiveClient, isDefault, isModal, isRemote, master, modifyVirtualArea, noCycle, scroll, scrollArea, snapHorzScroll, snapVertScroll, state, tabCycle, visible.<br>
+Data:<br>
+id<br>
+Design:<br>
+name<br>
+Document:<br>
+fileName, isDocument, modifiedDocument.<br>
+Layout:<br>
+anchor, clientSize, is3D, maxClientSize, minClientSize, nonClient, parent, position, size, sizeAnchor.<br>
+Misc:<br>
+alphaBlend, autoCreate, closing, creationActivation, fullRender, icon, moveable, useSharedMemory.<br>
+Window Style:<br>
+drawBehind, hasClose, hasHorzScroll, hasMaximize, hasMenuBar, hasMinimize, hasStatusBar, hasVertScroll, menu, mergeMenus, showInTaskBar, stayOnTop<br>

@@ -1,0 +1,13 @@
+Can be dragged from the toolbox directly to the source, or into the form editor.<br>
+<br>
+Otherwise, can be manually entered in to the statements section of code, in the definition of it's parent.<br>
+<br>
+Label inherits qualities defined in the Window class.<br>
+<br>
+All of Label's qualities can be defined in its instantiation. Note, that the first quality that should be set in the instantiation is the Parent. If this is not set, then Label is constructed as a free object rather than a child. This would result in Label not being closed when the program was closed. Most commonly the parent is the this object, as they are defined within the parent class.<br>
+<br>
+Some of the most commonly overridden qualities are:<br>
+   font:       Specifies the font to be used for the Label, and it's properties.<br>
+   position: Specifies the top left corner of the Label in relation to the top left corner of the parent.<br>
+   size:       Specifies the size of the Label and/or the GroupBox<br>
+   text:       Specifies the text to be seen on the Label.

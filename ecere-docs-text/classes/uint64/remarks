@@ -1,0 +1,3 @@
+Unlike other languages, the uint64 data type is actually a class.<br>
+<br>
+uint64 is equivalent to an unsigned long long in C.

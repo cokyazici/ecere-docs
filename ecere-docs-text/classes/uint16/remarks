@@ -1,0 +1,3 @@
+Unlike other languages the uint16 data type is actually a class.<br>
+<br>
+uint16 is equivalent to an unsigned short in C.

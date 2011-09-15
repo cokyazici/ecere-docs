@@ -1,0 +1,13 @@
+class Form1 : Window<br>
+{<br>
+   Timer timer<br>
+   {<br>
+      this;         // the Timer object belongs to the Form1 class.<br>
+      delay = 0.01; // the time to wait is 0.01 seconds.<br>
+      bool DelayExpired() // Override the virtual function to tell the Timer what to do.<br>
+      {<br>
+         Update(null); // redraw the entire window.<br>
+         return true; // tell the program that everything went ok.<br>
+      }<br>
+   }; // terminate the initialization of timer.<br>
+}

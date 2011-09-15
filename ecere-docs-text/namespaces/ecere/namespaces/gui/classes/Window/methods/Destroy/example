@@ -1,0 +1,6 @@
+Window<br>
+{<br>
+   text = "Destroy Example";<br>
+   Button <br>
+   {<br>
+      text = "Destroy this Window!";

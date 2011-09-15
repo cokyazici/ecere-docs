@@ -1,0 +1,2 @@
+The maximum number of characters that a line can hold.<br>
+Example: maxLineSize = 30;

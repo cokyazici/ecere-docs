@@ -1,0 +1,1 @@
+When true, automatically wraps the text to the next line of a multiLine Edit Box when the caret encounters the right most side of the Edit Box. This wraps from the beginning of the last word on the line.

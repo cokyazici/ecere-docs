@@ -1,0 +1,3 @@
+double aDouble; // A stand alone declaration of a double.<br>
+double a, b; // Declaring two doubles at the same time.<br>
+double c = 12.1234567899; // Declaring and initializing a double at the same time.

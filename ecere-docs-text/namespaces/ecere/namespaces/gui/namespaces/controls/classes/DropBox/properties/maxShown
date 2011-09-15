@@ -1,0 +1,2 @@
+The number of items to show in the drop down list.<br>
+Example: DropBox dropBox1 { this, maxShown = 2 };

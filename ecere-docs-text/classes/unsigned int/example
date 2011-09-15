@@ -1,0 +1,3 @@
+unsigned int aUint; // A stand alone declaration of an unsigned int.<br>
+unsigned int a, b; // Declaring two unsigned ints at the same time.<br>
+unsigned int c = 64000, d = 10; // Declaring two unsigned ints, and initializing them both at the same time.

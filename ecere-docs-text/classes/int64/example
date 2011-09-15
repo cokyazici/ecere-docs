@@ -1,0 +1,4 @@
+int64 thisInt; // A stand alone declaration of an int64.<br>
+int64 a, b; // Declaring two int64s at the same time.<br>
+int64 c = 4294967296, d = -300; // Declaring two int64s, and initializing them both at the same time.<br>
+int64 anotherInt = 040000000000; // Declaring and initializing an int64 with an octal value.

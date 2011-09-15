@@ -1,0 +1,7 @@
+void GrabWindowToBitmapFile(Window window, char * filePath, char * format)<br>
+{<br>
+   Bitmap bitmap { };<br>
+   window.display.Grab(bitmap, 0, 0, window.size.w, window.size.h);<br>
+   bitmap.Save(filePath, format, null);<br>
+   delete bitmap;<br>
+}

@@ -1,0 +1,1 @@
+bool, byte, char, char *, double, enum, float, int, int64, uint16, uint64, OnCompare(), OnCopy(), OnDisplay(), OnEdit(), OnFree(), OnGetDataFromString(), OnGetString(), OnSaveEdit(), OnSerialize(), OnUnserialize()
