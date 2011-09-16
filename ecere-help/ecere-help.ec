@@ -79,10 +79,9 @@ class helpform : Window
 
    void ListDirectory(DataRow addTo, char *path)
    {
-      static int maxDepth = 0;
       FileListing listing { path };
-      maxDepth++;
-      while (maxDepth < 5 && listing.Find())
+
+      while (listing.Find())
       {
          help_row = addTo.AddString(listing.path);
          help_row.collapsed = true;
@@ -94,7 +93,7 @@ class helpform : Window
          ListDirectory(help_row, listing.path);
 
       }
-      maxDepth--;
+
    }
 
    bool OnCreate()
