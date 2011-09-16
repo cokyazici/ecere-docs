@@ -1,5 +1,5 @@
-An enumeration type, capable of storing only two values: true and false.<br>
+An enumeration type, capable of storing only two values: true and false.
 <br>
-Memory occupied: 32 bits(or 4 bytes)<br>
-<br>
-A bool variable is used for logical purposes, and is used almost exclusively for comparison operations. Ie) Is this statement true? Or is it false?
+Memory occupied: 32 bits(or 4 bytes)
+
+A bool variable is used for logical purposes, and is used almost exclusively for comparison operations. Ie) Is this statement true? Or is it false?is it false?

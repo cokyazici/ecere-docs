@@ -4,22 +4,21 @@
 
 import "ecere"
 
-File help_input_file;
+File help_file;
 
-void helpin(char *namein)
+void helpin(char *filename)
 {
 char error[4096];
 
 
    
-   help_input_file = FileOpen(namein, read); 
+   help_file = FileOpen(filename, readWrite); 
    
     
-    if (!help_input_file)
+    if (!help_file)
     {
-      sprintf(error, "Error, cannot open input file:\n%s\n%s", namein, strerror(errno));
+      sprintf(error, "Error, cannot open file:\n%s\n%s", filename, strerror(errno));
       MessageBox {text = "Error", contents = error}.Modal();
-      exit(1);
     }
 
 }
@@ -42,11 +41,33 @@ class helpform : Window
 
    EditBox help_edit_box
    {
-      this, anchor = { left = 400, top = 8, right = 0, bottom = 12 }, hasVertScroll = true, multiLine = true, wrap = true
+      this, anchor = { left = 400, top = 8, right = 0, bottom = 36 }, hasVertScroll = true, multiLine = true, wrap = true
    }
+   Button help_button
+   {
+      this, text = "Save", anchor = { horz = 22, vert = 260 };
+
+      bool NotifyClicked(Button button, int x, int y, Modifiers mods)
+      {
+                
+         if (help_row != null)
+         {
+         
+            if (FileExists(help_row.string).isFile == true)
+            {
+            helpin(help_row.string);
+            help_edit_box.Save(help_file, false);
+            delete(help_file);
+           }
+         
+         }
+                                               
+         return true;
+      }
+   };
    ListBox help_list_box 
-   {      
-      this, anchor = { left = 8, top = 8, right = 0.50, bottom = 12 }, fullRowSelect = false, true, true, true;
+   {
+      this, anchor = { left = 8, top = 0, right = 0.5, bottom = 36 }, fullRowSelect = false, true, true, true;
 
       bool NotifySelect(ListBox listBox, DataRow row, Modifiers mods)
       {
@@ -54,13 +75,15 @@ class helpform : Window
          if (row != null)
          {
          
+            help_row = row;
+
             if (FileExists(row.string).isFile == true)
             {
             help_edit_box.Clear();
             helpin(row.string);
-            help_edit_box.Load(help_input_file);
-            delete(help_input_file);
-            }
+            help_edit_box.Load(help_file);
+            delete(help_file);
+           }
          
          }
          return true;
