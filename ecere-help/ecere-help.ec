@@ -4,16 +4,18 @@
 
 import "ecere"
 
-FILE *naji_input;
+File help_input_file;
 
-void najin(char *namein)
+void helpin(char *namein)
 {
 char error[4096];
 
 
-    naji_input = fopen(namein, "rb");
-
-    if (naji_input == NULL)
+   
+   help_input_file = FileOpen(namein, read); 
+   
+    
+    if (!help_input_file)
     {
       sprintf(error, "Error, cannot open input file:\n%s\n%s", namein, strerror(errno));
       MessageBox {text = "Error", contents = error}.Modal();
@@ -22,10 +24,6 @@ char error[4096];
 
 }
 
-void najinclose(void)
-{
-fclose(naji_input);
-}
 
 
 
@@ -37,42 +35,34 @@ class helpform : Window
    hasMaximize = true;
    hasMinimize = true;
    hasClose = true;
-   size = { 664, 480 };
+   size = { 800, 600 };
 
    DataRow help_row;
    int a;
 
    EditBox help_edit_box
    {
-      this, text = "help_edit_box", size = { 314, 432 }, position = { 336, 8 }, readOnly = true, true
-   };
+      this, anchor = { left = 400, top = 8, right = 0, bottom = 12 }, hasVertScroll = true, multiLine = true, wrap = true
+   }
    ListBox help_list_box 
    {      
-      this, text = "help_list_box", anchor = { left = 8, top = 8, right = 0.490741, bottom = 12 }, fullRowSelect = false, true, true, true;
+      this, anchor = { left = 8, top = 8, right = 0.50, bottom = 12 }, fullRowSelect = false, true, true, true;
 
       bool NotifySelect(ListBox listBox, DataRow row, Modifiers mods)
       {
       
-      
-      if (FileExists(row.string).isFile == true)
-      {
-      najin(row.string);
-
-
-      help_edit_box.Clear();
-
-      while (1)
-      {
-      a = fgetc(naji_input);
-      if (a == EOF)
-      break;
-
-      help_edit_box.AddCh(a);
-      Update(null);
-      }
-
-      najinclose();
-      }
+         if (row != null)
+         {
+         
+            if (FileExists(row.string).isFile == true)
+            {
+            help_edit_box.Clear();
+            helpin(row.string);
+            help_edit_box.Load(help_input_file);
+            delete(help_input_file);
+            }
+         
+         }
          return true;
       }
    };
